@@ -21,7 +21,7 @@ namespace CretaceousPark.Facilities
         public void InstantiateGenerators()
         {
             Generator generator1 = new CircleGenerator();
-            generator1.SetPowerLevel(5);
+            generator1.SetPowerLevel(2);
 
             Generator generator2 = new CircleGenerator();
             generator2.SetPowerLevel(1);
@@ -30,7 +30,7 @@ namespace CretaceousPark.Facilities
             generator3.SetPowerLevel(1);
 
             Generator generator4 = new TriangleGenerator();
-            generator4.SetPowerLevel(4);
+            generator4.SetPowerLevel(3);
 
             Generator generator5 = new TriangleGenerator();
             generator5.SetPowerLevel(1);
@@ -39,10 +39,10 @@ namespace CretaceousPark.Facilities
             generator6.SetPowerLevel(1);
 
             Generator generator7 = new RectangleGenerator();
-            generator7.SetPowerLevel(5);
+            generator7.SetPowerLevel(2);
 
             Generator generator8 = new OctagonGenerator();
-            generator8.SetPowerLevel(8);
+            generator8.SetPowerLevel(4);
 
             Generator generator9 = new OctagonGenerator();
             generator9.SetPowerLevel(1);
