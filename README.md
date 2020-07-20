@@ -25,8 +25,8 @@ Saving Work:
     3. Enter in Command Window: git commit -m <Message for commit>  
     4. Enter in Command Window: git push  
     
-Submitting Work:
-    1. On the second tab of the the repository click pull requests
-    2. Click the button on the right that says "New Pull Request"
-    3. Click on the button that says "Create Pull Request"
-    4. In the submission write your first and last name and click "Create Pull Request"
+Submitting Work:  
+    1. On the second tab of the the repository click pull requests  
+    2. Click the button on the right that says "New Pull Request"  
+    3. Click on the button that says "Create Pull Request"  
+    4. In the submission write your first and last name and click "Create Pull Request"  
