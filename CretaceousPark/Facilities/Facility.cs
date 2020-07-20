@@ -34,8 +34,8 @@ namespace CretaceousPark.Facilities
                 generator.StartUp();
                 totalPower += generator.CalculatePowerPerSecond();
             }
-
             int distributedPower = CalculateDistributedPower();
+
 
             functioning = distributedPower == dinosaur.shockThreshold;
         }
