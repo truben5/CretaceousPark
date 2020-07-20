@@ -8,6 +8,7 @@ namespace CretaceousPark
 {
     class Program
     {
+        // DO NOT EDIT FILE
         static void Main(string[] args)
         {
             Console.WriteLine(String.Format("\nWelcome to Cretaceous Park Systems {0}\n\n", Constants.versionNumber));

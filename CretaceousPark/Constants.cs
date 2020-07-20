@@ -8,6 +8,8 @@ namespace CretaceousPark
 {
     public static class Constants
     {
+        // DO NOT EDIT FILE 
+
         public static string[] allDinosaurTypes = { "Tyrannosaurus Rex", 
                                                     "Velociraptor", 
                                                     "Triceratops", 
