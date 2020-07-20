@@ -12,10 +12,10 @@ Feel free to reach out to Troy Rubenstein if you have any questions or issues.
 
 Getting Started:  
     1. Make sure that you have Git installed on your machine  
-    2. Go to the github page and click on the green code button on the right and copy the url that pops up 
+    2. Go to the github page and click on the fork button at the top right of the screen. 
+    (This will make an instance of the repo under your account.)
+    3. On the new instance click the green code button on the right and copy the url that pops up 
     3. Open Command Window and navigate to directory you wish to store this project. Enter in Command Window: git clone <copied-url>  
-    4. Enter in Command Window: git checkout -b <FirstName_LastName>  
-    5. Enter in command Window: git push --set-upstream origin <FirstName_LastName>  
     
 This should create your branch of the project and update GitLab with it  
     
@@ -24,3 +24,9 @@ Saving Work:
     2. Enter in Command Window: git add .  
     3. Enter in Command Window: git commit -m <Message for commit>  
     4. Enter in Command Window: git push  
+    
+Submitting Work:
+    1. On the second tab of the the repository click pull requests
+    2. Click the button on the right that says "New Pull Request"
+    3. Click on the button that says "Create Pull Request"
+    4. In the submission write your first and last name and click "Create Pull Request"
