@@ -27,7 +27,9 @@ namespace CretaceousPark.Facilities
             generator2.SetPowerLevel(1);
 
             Generator generator3 = new TriangleGenerator();
-            generator3.SetPowerLevel(1);
+            generator3.SetPowerLevel(0);
+
+            // Changed to 0 to meet power threshold
 
             Generator generator4 = new TriangleGenerator();
             generator4.SetPowerLevel(4);

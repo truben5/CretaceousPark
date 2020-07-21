@@ -68,6 +68,8 @@ namespace CretaceousPark.Facilities
 
         protected void PrintStatus()
         {
+            int remainingPower = dinosaur.shockThreshold - CalculateDistributedPower();
+            int remainpow = remainingPower * perimeter;
             Console.WriteLine("Distributed Power: " + CalculateDistributedPower());
             if (functioning)
             {
@@ -76,6 +78,7 @@ namespace CretaceousPark.Facilities
             else
             {
                 Console.WriteLine("\n\nWARNING: FACILITY NOT FUNCTIONING CORRECTLY. DINOSAURS MAY NOT BE CONTAINED\n\n");
+                Console.WriteLine("\n Dinosaurs require: " + remainpow + " base power");
             }
         }
 
