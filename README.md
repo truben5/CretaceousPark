@@ -13,14 +13,14 @@ Feel free to reach out to Troy Rubenstein if you have any questions or issues.
 Getting Started:  
     1. Make sure that you have Git installed on your machine  
     2. Go to the github page and click on the fork button at the top right of the screen. 
-    (This will make an instance of the repo under your account.)
-    3. On the new instance click the green code button on the right and copy the url that pops up 
-    3. Open Command Window and navigate to directory you wish to store this project. Enter in Command Window: git clone <copied-url>  
+    (This will make an instance of the repo under your account.)  
+    3. On the new instance click the green code button on the right and copy the url that pops up  
+    3. Open Command Window and navigate to directory you wish to store this project. Enter in Command Window: git clone <copied-url>   
     
 This should create your branch of the project and update GitLab with it  
     
 Saving Work:  
-    1. Open Command Window and navigate to directory with project in it.   
+    1. Open Command Window and navigate to project directory.   
     2. Enter in Command Window: git add .  
     3. Enter in Command Window: git commit -m <Message for commit>  
     4. Enter in Command Window: git push  
