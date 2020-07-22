@@ -10,7 +10,7 @@ namespace CretaceousPark.Facilities
     {
         public FacilityD(Dinosaur dino) : base(dino)
         {
-            perimeter = Constants.FacilityAPerimeter;
+            perimeter = Constants.FacilityDPerimeter; //10000 ... This took me forever to realize.
 
             InstantiateGenerators();
             PowerUp();
@@ -20,17 +20,21 @@ namespace CretaceousPark.Facilities
 
         public void InstantiateGenerators()
         {
+            //Stegosaurus has 14 stock threshold
+            //Total Power / Perimeter = Stock Threshold
+            //Total Power = 14 * 10000 = 140000
+
             Generator generator1 = new CircleGenerator();
-            generator1.SetPowerLevel(5);
+            generator1.SetPowerLevel(2); // 50000 * 2 = 100000
 
             Generator generator2 = new CircleGenerator();
-            generator2.SetPowerLevel(3);
+            generator2.SetPowerLevel(0); // 50000 * 0 
 
             Generator generator3 = new TriangleGenerator();
-            generator3.SetPowerLevel(1);
+            generator3.SetPowerLevel(3); // 15000 * 3 = 45000
 
             Generator generator4 = new OctagonGenerator();
-            generator4.SetPowerLevel(10);
+            generator4.SetPowerLevel(0); 
 
 
             generators = new List<Generator>
