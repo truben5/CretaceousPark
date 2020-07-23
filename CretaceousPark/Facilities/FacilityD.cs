@@ -10,7 +10,7 @@ namespace CretaceousPark.Facilities
     {
         public FacilityD(Dinosaur dino) : base(dino)
         {
-            perimeter = Constants.FacilityAPerimeter;
+            perimeter = Constants.FacilityDPerimeter; //10000
 
             InstantiateGenerators();
             PowerUp();
@@ -21,16 +21,16 @@ namespace CretaceousPark.Facilities
         public void InstantiateGenerators()
         {
             Generator generator1 = new CircleGenerator();
-            generator1.SetPowerLevel(5);
+            generator1.SetPowerLevel(0);
 
             Generator generator2 = new CircleGenerator();
-            generator2.SetPowerLevel(3);
+            generator2.SetPowerLevel(2);
 
             Generator generator3 = new TriangleGenerator();
-            generator3.SetPowerLevel(1);
+            generator3.SetPowerLevel(3);
 
             Generator generator4 = new OctagonGenerator();
-            generator4.SetPowerLevel(10);
+            generator4.SetPowerLevel(0);
 
 
             generators = new List<Generator>
