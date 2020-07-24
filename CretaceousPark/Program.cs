@@ -32,7 +32,7 @@ namespace CretaceousPark
                     signIn = true;
                     Console.WriteLine("\nCredentials accepted, signing in...\n");
                 }
-            }
+            } 
 
             Console.WriteLine("Booting up Cretaceous Park...");
             Console.WriteLine("Current Dinosaur Species on Island: \n");
