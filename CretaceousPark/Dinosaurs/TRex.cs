@@ -10,7 +10,7 @@ namespace CretaceousPark.Dinosaurs
         {
             height = rnd.Next(8,13);
             weight = rnd.Next(7000, 20000);
-            diet = DietType.Herbivore;
+            diet = DietType.Carnivore;
             runningSpeed = 15;
             condition = ConditionType.Normal;
             shockThreshold = 20;

@@ -37,7 +37,7 @@ namespace CretaceousPark.Facilities
 
             int distributedPower = CalculateDistributedPower();
 
-            functioning = distributedPower == dinosaur.shockThreshold;
+            functioning = distributedPower >= dinosaur.shockThreshold;
         }
 
         public void PowerDown()
