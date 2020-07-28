@@ -32,13 +32,23 @@ namespace CretaceousPark.Generators
 
             if (powerLevel <= maxLevel && powerLevel > 0)
             {
+                
                 level = powerLevel;
+            }
+
+            if(powerLevel > maxLevel && powerLevel > 0)
+            {
+                level = maxLevel;
             }
         }
 
         public void IncreasePowerLevel()
         {
-            level++;
+            if (level < maxLevel)
+            {
+                level++;
+
+            }
         }
 
         public void DecreasePowerLevel()
