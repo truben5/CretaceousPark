@@ -20,19 +20,19 @@ namespace CretaceousPark.Facilities
         public void InstantiateGenerators()
         {
             Generator generator1 = new CircleGenerator();
-            generator1.SetPowerLevel(4);
+            generator1.SetPowerLevel(2);
 
             Generator generator2 = new TriangleGenerator();
-            generator2.SetPowerLevel(5);
+            generator2.SetPowerLevel(1);
 
             Generator generator3 = new TriangleGenerator();
-            generator3.SetPowerLevel(2);
+            generator3.SetPowerLevel(3);
 
             Generator generator4 = new RectangleGenerator();
-            generator4.SetPowerLevel(2);
+            generator4.SetPowerLevel(0);
 
             Generator generator5 = new RectangleGenerator();
-            generator5.SetPowerLevel(5);
+            generator5.SetPowerLevel(2);
 
             generators = new List<Generator>()
             {

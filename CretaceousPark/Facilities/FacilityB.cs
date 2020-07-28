@@ -21,13 +21,13 @@ namespace CretaceousPark.Facilities
         public void InstantiateGenerators()
         {
             Generator generator1 = new RectangleGenerator();
-            generator1.SetPowerLevel(5);
+            generator1.SetPowerLevel(1);
 
             Generator generator2 = new RectangleGenerator();
-            generator2.SetPowerLevel(5);
+            generator2.SetPowerLevel(1);
 
             Generator generator3 = new OctagonGenerator();
-            generator3.SetPowerLevel(10);
+            generator3.SetPowerLevel(4);
 
             generators = new List<Generator>()
             {
